@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.welcome, .conclusion {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.welcome h2, .conclusion h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+}
+
+.welcome p, .conclusion p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.function {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.function-content {
+    flex: 1;
+    text-align: left;
+}
+
+.function h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.function p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+}
+
+.function img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+    .function {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .function-content {
+        margin-right: 1rem;
+    }
+
+    .function img {
+        max-width: 200px;
+        margin-top: 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .welcome h2, .conclusion h2 {
+        font-size: 2.2rem;
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual dos Ramais - ACCERTH</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Manual dos Ramais - ACCERTH</h1>
+    </header>
+    <main>
+        <section class="welcome">
+            <h2>Olá, equipe! 👋</h2>
+            <p>Seja bem-vindo(a) ao nosso guia prático de ramais.</p>
+            <p>Aqui você encontra as principais funções do telefone corporativo — tudo explicado de forma rápida, direta e sem complicação.</p>
+            <p>Nosso objetivo é facilitar o seu dia a dia nas comunicações internas e externas, mantendo o atendimento sempre ágil e profissional.</p>
+            <p>Então, bora conferir as principais funções? ⚡</p>
+        </section>
+
+        <section class="function">
+            <div class="function-content">
+                <h3>☎️ 1. Chamar um Ramal</h3>
+                <p>Quer falar com alguém da equipe? É simples! Basta discar o número do ramal desejado e pressionar #. Pronto! Sua ligação vai direto para o colega.</p>
+                <p><strong>💡 Dica:</strong> mantenha uma listinha dos ramais mais usados sempre por perto.</p>
+            </div>
+            <img src="{{ url_for('static', filename='images/chamar_ramal.png') }}" alt="Chamar um Ramal">
+        </section>
+
+        <section class="function">
+            <div class="function-content">
+                <h3>🔁 2. Transferir uma Ligação</h3>
+                <p>Atendeu e precisa passar a ligação pra outro setor? Durante a chamada, pressione Transferir (ou Flash, dependendo do modelo do telefone) + ramal do destino.</p>
+                <p><strong>💬 Dica:</strong> avise a pessoa antes da transferência, se possível — isso evita confusões no atendimento.</p>
+            </div>
+            <img src="{{ url_for('static', filename='images/transferir_ligacao.png') }}" alt="Transferir uma Ligação">
+        </section>
+
+        <section class="function">
+            <div class="function-content">
+                <h3>👥 3. Fazer uma Conferência</h3>
+                <p>Quer incluir mais alguém na conversa? Durante a ligação, pressione Conferência, digite o ramal e em seguida pressione Flash.</p>
+                <p><strong>🔊 Ideal</strong> para resolver assuntos em equipe sem precisar agendar reunião.</p>
+            </div>
+            <img src="{{ url_for('static', filename='images/conferencia.png') }}" alt="Fazer uma Conferência">
+        </section>
+
+        <section class="function">
+            <div class="function-content">
+                <h3>⏸️ 4. Colocar em Espera</h3>
+                <p>Precisa consultar alguém antes de continuar a ligação? É só pressionar Hold para colocar o cliente em espera. Quando quiser retornar, pressione Hold novamente.</p>
+                <p><strong>🎶 Enquanto isso,</strong> o outro lado ouvirá a música de espera (ou o silêncio da eficiência 😄).</p>
+            </div>
+            <img src="{{ url_for('static', filename='images/colocar_espera.png') }}" alt="Colocar em Espera">
+        </section>
+
+        <section class="function">
+            <div class="function-content">
+                <h3>📲 5. Ver Chamada Perdida</h3>
+                <p>Perdeu uma ligação? Sem problema! Basta verificar no visor do telefone a lista de chamadas não atendidas.</p>
+                <p><strong>📞 Assim</strong> você pode retornar rapidamente e manter o bom atendimento.</p>
+            </div>
+            <img src="{{ url_for('static', filename='images/chamada_perdida.png') }}" alt="Ver Chamada Perdida">
+        </section>
+
+        <section class="function">
+            <div class="function-content">
+                <h3>🎯 6. Captura de Chamada</h3>
+                <p>Ouviu o telefone do lado tocando e quer atender? Digite *40 + número do ramal que está tocando.</p>
+                <p><strong>🔥 Perfeito</strong> para ajudar colegas quando estão ocupados ou fora da mesa.</p>
+            </div>
+            <img src="{{ url_for('static', filename='images/captura_chamada.png') }}" alt="Captura de Chamada">
+        </section>
+
+        <section class="conclusion">
+            <h2>💬 Pronto para dominar seu ramal?</h2>
+            <p>Agora você já conhece as principais funções do telefone da Accerth! Com esses comandos, fica muito mais fácil manter a comunicação fluindo entre todos os setores.</p>
+            <p><strong>📍 Dica final:</strong> Salve este manual nos seus favoritos ou aponte a câmera para o QR Code sempre que quiser relembrar uma função.</p>
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
