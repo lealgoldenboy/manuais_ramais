@@ -105,6 +105,16 @@ main {
     margin: 0.5rem 0;
 }
 
+.function p a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.function p a:hover {
+    text-decoration: underline;
+}
+
 .function img {
     max-width: 100%;
     height: auto;
@@ -121,7 +131,7 @@ footer {
 }
 
 footer p {
-    margin: 0.3rem 0;
+    margin: 0;
     font-size: 0.9rem;
 }
 

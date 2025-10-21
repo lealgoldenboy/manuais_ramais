@@ -21,4 +21,16 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Smooth scroll to ramais-list
+    const ramaisLink = document.querySelector('a[href="#ramais-list"]');
+    if (ramaisLink) {
+        ramaisLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            const ramaisList = document.getElementById('ramais-list');
+            if (ramaisList) {
+                ramaisList.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    }
 });
