@@ -36,16 +36,45 @@ main {
 .welcome, .conclusion {
     text-align: center;
     margin-bottom: 2rem;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .welcome h2, .conclusion h2 {
     font-size: 1.8rem;
     color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.conclusion h3 {
+    font-size: 1.4rem;
+    color: #28a745;
+    margin: 1.5rem 0 0.5rem 0;
 }
 
 .welcome p, .conclusion p {
     font-size: 1rem;
     line-height: 1.5;
+    margin: 0.5rem 0;
+}
+
+.ramais-list {
+    text-align: left;
+    max-width: 100%;
+    padding-left: 1.5rem;
+    list-style-type: none;
+}
+
+.ramais-list li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+}
+
+.ramais-list li strong {
+    color: #007bff;
 }
 
 .function {
@@ -108,5 +137,10 @@ main {
 
     .welcome h2, .conclusion h2 {
         font-size: 2.2rem;
+    }
+
+    .ramais-list {
+        max-width: 600px;
+        margin: 0 auto;
     }
 }

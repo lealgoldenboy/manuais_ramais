@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="{{ url_for('static', filename='imagens/logo.png') }}" alt="Logo Accerth" class="logo">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo Accerth" class="logo">
         <h1>Manual dos Ramais - ACCERTH</h1>
     </header>
     <main>
@@ -27,7 +27,7 @@
                 <p>Quer falar com alguém da equipe? É simples! Basta discar o número do ramal desejado e pressionar #. Pronto! Sua ligação vai direto para o colega.</p>
                 <p><strong>💡 Dica:</strong> mantenha uma listinha dos ramais mais usados sempre por perto.</p>
             </div>
-            <img src="{{ url_for('static', filename='imagens/Design sem nome (1).png') }}" alt="Chamar um Ramal">
+            <img src="{{ url_for('static', filename='images/Design sem nome (1).png') }}" alt="Chamar um Ramal">
         </section>
 
         <section class="function">
@@ -36,7 +36,7 @@
                 <p>Atendeu e precisa passar a ligação pra outro setor? Durante a chamada, pressione "flash/rd" + ramal do destino, após o usuário atender, desligue o ramal.</p>
                 <p><strong>💬 Dica:</strong> Quando o usuário atender, informe sobre a ligação — isso evita confusões no atendimento.</p>
             </div>
-            <img src="{{ url_for('static', filename='imagens/Design sem nome (3).png') }}" alt="Transferir uma Ligação">
+            <img src="{{ url_for('static', filename='images/Design sem nome (3).png') }}" alt="Transferir uma Ligação">
         </section>
 
         <section class="function">
@@ -45,7 +45,7 @@
                 <p>Quer incluir mais alguém na conversa? Durante a ligação, pressione "flash/rd", digite o ramal e em seguida pressione "flash/rd" + "3".</p>
                 <p><strong>🔊 Ideal</strong> para resolver assuntos em equipe sem precisar agendar reunião.</p>
             </div>
-            <img src="{{ url_for('static', filename='imagens/Design sem nome (2).png') }}" alt="Fazer uma Conferência">
+            <img src="{{ url_for('static', filename='images/Design sem nome (2).png') }}" alt="Fazer uma Conferência">
         </section>
 
         <section class="function">
@@ -54,7 +54,7 @@
                 <p>Precisa consultar alguém antes de continuar a ligação? É só pressionar "flash/rd" para colocar o cliente em espera. Quando quiser retornar, pressione "flash/rd" novamente.</p>
                 <p><strong>🎶 Enquanto isso,</strong> o outro lado ouvirá a música de espera (ou o silêncio da eficiência 😄).</p>
             </div>
-            <img src="{{ url_for('static', filename='imagens/Design sem nome (4).png') }}" alt="Colocar em Espera">
+            <img src="{{ url_for('static', filename='images/Design sem nome (4).png') }}" alt="Colocar em Espera">
         </section>
 
         <section class="function">
@@ -63,7 +63,7 @@
                 <p>Perdeu uma ligação? Sem problema! Basta verificar no visor do telefone a lista de chamadas não atendidas.</p>
                 <p><strong>📞 Assim</strong> você pode retornar rapidamente e manter o bom atendimento.</p>
             </div>
-            <img src="{{ url_for('static', filename='imagens/Design sem nome (5).png') }}" alt="Ver Chamada Perdida">
+            <img src="{{ url_for('static', filename='images/Design sem nome (5).png') }}" alt="Ver Chamada Perdida">
         </section>
 
         <section class="function">
@@ -72,13 +72,29 @@
                 <p>Ouviu o telefone do lado tocando e quer atender? Digite "55" + número do ramal que está tocando.</p>
                 <p><strong>🔥 Perfeito</strong> para ajudar colegas quando estão ocupados ou fora da mesa.</p>
             </div>
-            <img src="{{ url_for('static', filename='imagens/Design sem nome (3).png') }}" alt="Captura de Chamada">
+            <img src="{{ url_for('static', filename='images/Design sem nome (3).png') }}" alt="Captura de Chamada">
         </section>
 
         <section class="conclusion">
             <h2>💬 Pronto para dominar seu ramal?</h2>
             <p>Agora você já conhece as principais funções do telefone da Accerth! Com esses comandos, fica muito mais fácil manter a comunicação fluindo entre todos os setores.</p>
             <p><strong>📍 Dica final:</strong> Salve este manual nos seus favoritos ou aponte a câmera para o QR Code sempre que quiser relembrar uma função.</p>
+            <h3>📋 Lista de Ramais</h3>
+            <ul class="ramais-list">
+                <li><strong>200</strong> - Suelen / Aline / Pedro</li>
+                <li><strong>201</strong> - Thabata</li>
+                <li><strong>202</strong> - Eduardo Souza / Fred</li>
+                <li><strong>203</strong> - Thais / Gilberto</li>
+                <li><strong>204</strong> - Andressa L. / Andressa M.</li>
+                <li><strong>205</strong> - André / Laura</li>
+                <li><strong>207</strong> - Carla</li>
+                <li><strong>210</strong> - Sala de Reunião</li>
+                <li><strong>211</strong> - Cláudia</li>
+                <li><strong>212</strong> - Barrocas</li>
+                <li><strong>213</strong> - Marcelo</li>
+                <li><strong>214</strong> - Eduardo Machado</li>
+                <li><strong>215</strong> - Patrícia Moriggi</li>
+            </ul>
         </section>
     </main>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
