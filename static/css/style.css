@@ -112,6 +112,19 @@ main {
     border-radius: 8px;
 }
 
+footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+}
+
 @media (min-width: 768px) {
     .function {
         flex-direction: row;
@@ -142,5 +155,9 @@ main {
     .ramais-list {
         max-width: 600px;
         margin: 0 auto;
+    }
+
+    footer p {
+        font-size: 1rem;
     }
 }
